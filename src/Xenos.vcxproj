@@ -109,7 +109,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <SubSystem>Windows</SubSystem>
+      <SubSystem>Console</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <FixedBaseAddress>true</FixedBaseAddress>
       <TargetMachine>MachineX86</TargetMachine>
@@ -136,7 +136,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <SubSystem>Windows</SubSystem>
+      <SubSystem>Console</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <FixedBaseAddress>true</FixedBaseAddress>
       <AdditionalDependencies>Shlwapi.lib;Dbghelp.lib;Comctl32.lib;mscoree.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -161,7 +161,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <SubSystem>Windows</SubSystem>
+      <SubSystem>Console</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
@@ -190,7 +190,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <SubSystem>Windows</SubSystem>
+      <SubSystem>Console</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
@@ -206,7 +206,7 @@
     <ClCompile Include="DumpHandler.cpp" />
     <ClCompile Include="FileUtil.cpp" />
     <ClCompile Include="InjectionCore.cpp" />
-    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="ALBIS_NI.cpp" />
     <ClCompile Include="MainDlg.cpp" />
     <ClCompile Include="Routines.cpp" />
     <ClCompile Include="DlgModules.cpp" />
